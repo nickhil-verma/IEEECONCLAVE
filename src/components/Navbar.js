@@ -5,48 +5,42 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // State for managing mobile menu
 
   return (
-    <nav className="bg-[#e5e7ff] text-[#012ba1] sticky top-0 shadow-md z-50">
+    <nav className="bg-transparent mt-20 text-white sticky top-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img
-              src={LOGO}
-              alt="Logo"
-              className="h-8 w-auto"
-            />
+            <img src={LOGO} alt="Logo" className="h-8 w-auto" />
           </div>
 
           {/* Navigation Links for Larger Screens */}
-          <div className="hidden md:flex space-x-4">
+          <div className="hidden md:flex justify-center items-center space-x-8 w-full">
             <a
               href="#home"
-              className="text-[#012ba1] hover:text-[#6a65bf] px-3 py-2 rounded-md text-sm font-medium"
+              className="text-white hover:text-[#6a65bf] text-lg font-semibold px-3 py-2 rounded-md"
             >
               Home
             </a>
             <a
               href="#about"
-              className="text-[#012ba1] hover:text-[#6a65bf] px-3 py-2 rounded-md text-sm font-medium"
+              className="text-white hover:text-[#6a65bf] text-lg font-semibold px-3 py-2 rounded-md"
             >
               About
             </a>
             <a
               href="#services"
-              className="text-[#012ba1] hover:text-[#6a65bf] px-3 py-2 rounded-md text-sm font-medium"
+              className="text-white hover:text-[#6a65bf] text-lg font-semibold px-3 py-2 rounded-md"
             >
               Services
             </a>
-            <button className="bg-[#6a65bf] text-white hover:bg-[#012ba1] px-4 py-2 rounded-md text-sm font-medium">
-              Contact
-            </button>
+             
           </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
               type="button"
-              className="text-[#012ba1] focus:outline-none"
+              className="text-white focus:outline-none"
               onClick={() => setIsOpen(!isOpen)} // Toggle mobile menu
             >
               <svg
@@ -73,29 +67,27 @@ const Navbar = () => {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } md:hidden bg-[#e5e7ff] space-y-2 px-4 pb-4 transition-all duration-300 ease-in-out`}
+        } md:hidden bg-transparent space-y-2 px-4 pb-4 transition-all duration-300 ease-in-out`}
       >
         <a
           href="#home"
-          className="block text-[#012ba1] hover:text-[#6a65bf] px-3 py-2 rounded-md text-sm font-medium"
+          className="block text-white hover:text-[#6a65bf] text-lg font-semibold px-3 py-2 rounded-md"
         >
           Home
         </a>
         <a
           href="#about"
-          className="block text-[#012ba1] hover:text-[#6a65bf] px-3 py-2 rounded-md text-sm font-medium"
+          className="block text-white hover:text-[#6a65bf] text-lg font-semibold px-3 py-2 rounded-md"
         >
           About
         </a>
         <a
           href="#services"
-          className="block text-[#012ba1] hover:text-[#6a65bf] px-3 py-2 rounded-md text-sm font-medium"
+          className="block text-white hover:text-[#6a65bf] text-lg font-semibold px-3 py-2 rounded-md"
         >
           Services
         </a>
-        <button className="w-full bg-[#6a65bf] text-white hover:bg-[#012ba1] px-4 py-2 rounded-md text-sm font-medium">
-          Contact
-        </button>
+         
       </div>
     </nav>
   );

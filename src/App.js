@@ -8,7 +8,7 @@ import Organizer from './components/Organizer';
 function App() {
   return (
     <>
-    <Navbar/>
+     
     <Home/>
     <Speakers/>
     <Organizer/>
