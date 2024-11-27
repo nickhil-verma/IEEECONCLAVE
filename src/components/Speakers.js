@@ -1,18 +1,14 @@
 import React from "react";
 import { FaUser, FaRegAddressCard, FaUsersCog, FaChalkboardTeacher } from "react-icons/fa";
+import ASHWINI from "../img/Ashiwni.jpeg"
+import ARUN from "../img/Arunshankar.jpeg"
 
 const Speakers = () => {
   const speakers = [
-    { name: "Arjun Kapoor", image: "https://via.placeholder.com/150" },
-    { name: "Priya Sharma", image: "https://via.placeholder.com/150" },
-    { name: "Rahul Verma", image: "https://via.placeholder.com/150" },
-    { name: "Sneha Iyer", image: "https://via.placeholder.com/150" },
-    { name: "Ravi Mehta", image: "https://via.placeholder.com/150" },
-    { name: "Ananya Das", image: "https://via.placeholder.com/150" },
-    { name: "Karan Patel", image: "https://via.placeholder.com/150" },
-    { name: "Pooja Singh", image: "https://via.placeholder.com/150" },
-    { name: "Vikram Gupta", image: "https://via.placeholder.com/150" },
-    { name: "Meera Krishnan", image: "https://via.placeholder.com/150" },
+    { name: "Ashiwni Holla", image: ARUN },
+    { name: "Arun Shankar", image: ASHWINI },
+    
+    
   ];
 
   const targetAudience = [

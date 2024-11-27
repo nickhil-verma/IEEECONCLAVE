@@ -16,10 +16,10 @@ const Organizer = () => {
             Chair of the Organizing Committee, ensuring smooth coordination and execution of the event.
           </p>
         </div>
-        <div className="mt-16 m-auto w-[190px]">
+        <div className="mt-16 m-auto w-[160px]">
             <a href="/" className="w-full max-w-xs">
               <button className="max-sm:text-sm m-auto border-[0.5px] border-[#012ba1] text-gray-500 flex items-center hover:text-black gap-2 duration-100 hover:gap-3 hover:bg-gray-100 px-4 py-2 rounded-3xl w-full text-center">
-                ✨ Register Now <span><GoArrowRight /></span>
+                Register Now <span><GoArrowRight /></span>
               </button>
             </a>
           </div>

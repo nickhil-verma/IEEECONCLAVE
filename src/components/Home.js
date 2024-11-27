@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { GoArrowRight } from "react-icons/go";
-import BACKROUNDVID from "../img/bcg.mp4";
+import BACKROUNDVID from "../img/Background.mp4";
 import Navbar from "./Navbar";
 
 const Home = () => {
@@ -48,20 +48,20 @@ const Home = () => {
           <div className="flex flex-col items-center text-white w-full md:w-1/2 space-y-8">
             {" "}
             {/* Center items */}
-            <div className="text-lg md:text-xl mt-16 md:mt-0 text-center">
+            <div className="text-xl text-bold md:text-xl mt-16 md:mt-0 text-center">
               <Typewriter
                 words={[
-                  "⚡ Lightening Talk: Agility in action - leading Teams in fast-paced world",
-                  "🛠 Workshop: Strategy for Managerial success",
-                  "⚡ Lightening Talk: Decision making in digital Age",
-                  "📊 Planary: Generative AI for executives",
-                  "⚡ PechaKucha: Leadership tactics in a Flash",
-                  "⚡ Talk: Conflict Alchemy",
-                  "🔥 Ignite Talk: Network Weaving",
-                  "🤝 Talk: Social Synergy",
-                  "⚡ SpeedTalk: AI Sparks",
-                  "💡 4 Panel Talks: Resilient and Rising",
-                  "⚙️ Techno Engg Management in the era of GenAI",
+                  " Lightening Talk: Agility in action - leading Teams in fast-paced world",
+                  " Workshop: Strategy for Managerial success",
+                  " Lightening Talk: Decision making in digital Age",
+                  " Planary: Generative AI for executives",
+                  " PechaKucha: Leadership tactics in a Flash",
+                  " Talk: Conflict Alchemy",
+                  " Ignite Talk: Network Weaving",
+                  " Talk: Social Synergy",
+                  " SpeedTalk: AI Sparks",
+                  " 4 Panel Talks: Resilient and Rising",
+                  " Techno Engg Management in the era of GenAI",
                 ]}
                 loop={true}
                 cursor
@@ -74,8 +74,8 @@ const Home = () => {
             {/* Register Button */}
             <div className="mt-10 m-auto flex justify-center w-full">
               <a href="/" className="w-full max-w-xs">
-                <button className="max-sm:text-sm m-auto border-[0.5px] text-gray-300 flex items-center hover:text-black gap-2 duration-100 hover:gap-3 hover:bg-gray-100 px-4 py-2 rounded-3xl w-[190px] text-center">
-                  ✨ Register Now{" "}
+                <button className="max-sm:text-sm m-auto font-semibold border-[0.5px] border-white text-gray-100 flex items-center hover:text-black gap-2 duration-100 hover:gap-3 hover:bg-gray-100 px-4 py-2 rounded-3xl w-[170px] text-center">
+                   Register Now{" "}
                   <span>
                     <GoArrowRight />
                   </span>
